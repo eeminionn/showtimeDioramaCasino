@@ -10,7 +10,7 @@
 ---
 ## 🎞️ Demo del Diorama en funcionamiento
 
-<img src="Fotos/resultadoFinal/DemoRuletGift.gif" alt="Demo Ruleta" width="500"/>
+<img src="Fotos/resultadoFinal/DemoRuleta.gif" alt="Demo Ruleta" width="500"/>
 
 
 
@@ -132,5 +132,5 @@
 
 ## 🎞️ Demo del Diorama en funcionamiento
 
-<img src="Fotos/resultadoFinal/DemoRuletGift.gif" alt="Demo Ruleta" width="500"/>
+<img src="Fotos/resultadoFinal/DemoRuleta.gif" alt="Demo Ruleta" width="500"/>
 
