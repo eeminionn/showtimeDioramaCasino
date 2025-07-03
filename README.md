@@ -89,7 +89,7 @@
 
 ---
 
-## 📸 Galería (reemplazar con tus imágenes reales)
+## 📸 Galería 
 
 ### Proceso
 ![Boceto](Etapa1_Ideacion_Modelado/boceto.jpg)
