@@ -134,3 +134,14 @@
 
 <img src="Fotos/resultadoFinal/DemoRuleta.gif" alt="Demo Ruleta" width="500"/>
 
+---
+
+## 🛡️ Derechos de autor y propiedad de los modelos
+
+Todos los modelos 3D, componentes electrónicos, diseño de PCB, imágenes, renders y fotografías presentes en este repositorio fueron **diseñados, modelados y fabricados por Emilio Abarca** como parte del proyecto final del curso **Fabricación Digital** de la carrera **Diseño en Interacción Digital** (UDD, 2025).
+
+Cualquier uso, reproducción o distribución de estos materiales debe contar con la debida atribución al autor.
+
+---
+
+
