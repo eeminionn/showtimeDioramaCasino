@@ -1,0 +1,49 @@
+// Pines del puente H TB6612FNG
+const int PWMA = 6;
+const int AIN2 = 7;
+const int AIN1 = 8;
+
+const int VELOCIDAD_MAXIMA = 20;   // Velocidad máxima de la ruleta
+const int PASO = 1;                // Paso de aceleración/desaceleración
+const int RETARDO_PASO = 150;      // Tiempo entre pasos (ms)
+const int TIEMPO_GIRO_CONSTANTE = 10000; // Tiempo girando a velocidad máxima
+
+void setup() {
+  pinMode(PWMA, OUTPUT);
+  pinMode(AIN1, OUTPUT);
+  pinMode(AIN2, OUTPUT);
+}
+
+void loop() {
+  // --------- Impulso corto en dirección contraria ---------
+  digitalWrite(AIN1, LOW);
+  digitalWrite(AIN2, HIGH);
+  analogWrite(PWMA, 15); // Velocidad suave
+  delay(300);            // Breve impulso (ajustable)
+  analogWrite(PWMA, 0);  // Detener motor
+  delay(200);            // Pausa antes del giro principal
+
+  // --------- Dirección de giro principal ---------
+  digitalWrite(AIN1, HIGH);
+  digitalWrite(AIN2, LOW);
+
+  // Aceleración progresiva
+  for (int velocidad = 0; velocidad <= VELOCIDAD_MAXIMA; velocidad += PASO) {
+    analogWrite(PWMA, velocidad);
+    delay(RETARDO_PASO);
+  }
+
+  // Mantener velocidad máxima por un tiempo
+  analogWrite(PWMA, VELOCIDAD_MAXIMA);
+  delay(TIEMPO_GIRO_CONSTANTE);
+
+  // Desaceleración progresiva
+  for (int velocidad = VELOCIDAD_MAXIMA; velocidad >= 0; velocidad -= PASO) {
+    analogWrite(PWMA, velocidad);
+    delay(RETARDO_PASO);
+  }
+
+  // Parar motor completamente
+  analogWrite(PWMA, 0);
+  delay(5000); // Esperar antes del siguiente giro
+}
