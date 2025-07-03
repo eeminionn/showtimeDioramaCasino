@@ -89,14 +89,11 @@
 
 ---
 
-## 📸 Galería 
+## 📸 Galería
 
-### Proceso
-![Boceto](Etapa1_Ideacion_Modelado/boceto.jpg)
-![Prueba 3D](Etapa2_Prototipado_3D/fichas_test.jpg)
-
-### Final
-![Diorama Terminado](Etapa4_Ensamblaje/diorama_final.jpg)
+### Renders Finales
+![Render Ficha](Fotos/resultadoFinal/RenderFicha.png)
+![Render Ruleta](Fotos/resultadoFinal/RenderRuleta.jpg)
 
 ---
 
