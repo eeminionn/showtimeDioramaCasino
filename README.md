@@ -8,6 +8,10 @@
 **Fecha de entrega:** 3 de julio de 2025  
 
 ---
+## 🎞️ Demo del Diorama
+
+<img src="Fotos/resultadoFinal/demoRuletGift.gif" alt="Demo Diorama" width="500"/>
+
 
 ## 📌 Etapas del Proyecto
 
