@@ -92,8 +92,12 @@
 ## 📸 Galería
 
 ### Renders Finales
-![Render Ficha](Fotos/resultadoFinal/RenderFicha.png)
-![Render Ruleta](Fotos/resultadoFinal/RenderRuleta.jpg)
+<h3>Render Ficha</h3>
+<img src="Fotos/resultadoFinal/RenderFicha.png" alt="Render Ficha" width="400"/>
+
+<h3>Render Ruleta</h3>
+<img src="Fotos/resultadoFinal/RenderRuleta.jpg" alt="Render Ruleta" width="400"/>
+
 
 ---
 
