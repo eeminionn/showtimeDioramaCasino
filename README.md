@@ -8,11 +8,12 @@
 **Fecha de entrega:** 3 de julio de 2025  
 
 ---
+
 ## 🎞️ Demo del Diorama en funcionamiento
 
 <img src="Fotos/resultadoFinal/DemoRuleta.gif" alt="Demo Ruleta" width="500"/>
 
-
+---
 
 ## 📌 Etapas del Proyecto
 
@@ -92,13 +93,22 @@
 
 ### 🖌️ Etapa 5: Post-Procesado
 
-- Ruleta: pintada con acrílico dorado + vinilo rojo, negro y verde.
-- Fichas y cartas decoradas con vinilo cortado.
+- Ruleta: pintada con acrílico dorado, decorada con vinilos de colores (rojo, negro, verde).
+- Fichas y cartas: decoradas con vinilo cortado.
 - Dados: puntos pintados con acrílico negro.
 - Base de madera: lijada y barnizada.
 - Detalles adicionales pintados a mano.
 
-<h4>✂️ Corte de vinilo</h4>
+<h4>✂️ Corte de vinilo (negro, rojo y verde)</h4>
+
+Para lograr los detalles gráficos y cromáticos en las piezas del diorama, se utilizó vinilo adhesivo de colores rojo, negro y verde.
+
+**Proceso de corte:**
+1. **Extracción de caras desde Fusion 360** usando el plugin **ShaperUtilities** para generar archivos SVG desde las superficies donde iría el vinilo.
+2. **Configuración en Leonardo Design Studio**: importación de SVG, ajuste de escala y definición del punto cero (0,0).
+3. **Corte con plóter modelo "Romeo"**, sobre superficie de salvacorte.
+4. **Aplicación manual del vinilo** sobre las piezas impresas 3D.
+
 <img src="Fotos/resultadoFinal/PlotterDeCorte1.jpg" alt="Corte de vinilo" width="400"/>
 
 <h4>🪵 Lijado y detalles de la base</h4>
@@ -113,26 +123,22 @@
 - Planos CAD (DWG/DXF)
 - Fichas técnicas por pieza
 
-#### Ficha Técnica (ejemplo)
+#### Ficha Técnica
 
-| Pieza           | Proceso | Material     | Peso [g] | Tiempo [min] | Parámetros impresión   | Post-Proceso                   |
-|----------------|---------|--------------|----------|--------------|-------------------------|--------------------------------|
-| Ruleta         | 3DP     | PLA          | 87       | 540          | 0.12 mm, 80 mm/s        | Pintura acrílica + vinilo      |
-| Dados          | 3DP     | PLA          | 10       | 40           | 0.12 mm, 80 mm/s        | Pintura negra                  |
-| Cartas         | 3DP     | PLA          | 8        | 30           | 0.12 mm, 80 mm/s        | Vinilo decorativo              |
-| Fichas         | 3DP     | PLA          | 15       | 45           | 0.12 mm, 80 mm/s        | Vinilo                         |
-| PCB            | CNC     | FR1          | -        | 30           | Fresa 0.8 mm            |                                |
-| Base de Madera | CNC     | MDF 10 mm    | -        | 4            | Fresa 6 mm              | Lijado, barnizado              |
+| Pieza           | Proceso | Material     | Peso [g] | Tiempo [min] | Parámetros impresión   | Post-Proceso                                           |
+|----------------|---------|--------------|----------|--------------|-------------------------|--------------------------------------------------------|
+| Ruleta         | 3DP     | PLA          | 87       | 540          | 0.12 mm, 80 mm/s        | Pintura acrílica + vinilo (SVG desde Fusion, plóter)   |
+| Dados          | 3DP     | PLA          | 10       | 40           | 0.12 mm, 80 mm/s        | Pintura negra                                          |
+| Cartas         | 3DP     | PLA          | 8        | 30           | 0.12 mm, 80 mm/s        | Vinilo (SVG desde Fusion 360, corte en plóter Romeo)   |
+| Fichas         | 3DP     | PLA          | 15       | 45           | 0.12 mm, 80 mm/s        | Vinilo decorativo (corte desde SVG, plóter Romeo)      |
+| PCB            | CNC     | FR1          | -        | 30           | Fresa 0.8 mm            |                                                        |
+| Base de Madera | CNC     | MDF 10 mm    | -        | 4            | Fresa 6 mm              | Lijado, barnizado                                      |
 
 ---
 
-## 🖼️ Presentación Final
+##  Presentación Final
 
 <img src="Fotos/resultadoFinal/DioramaFinalPresentacion.jpg" alt="Diorama Final" width="600"/>
-
-## 🎞️ Demo del Diorama en funcionamiento
-
-<img src="Fotos/resultadoFinal/DemoRuleta.gif" alt="Demo Ruleta" width="500"/>
 
 ---
 
@@ -143,5 +149,3 @@ Todos los modelos 3D, componentes electrónicos, diseño de PCB, imágenes, rend
 Cualquier uso, reproducción o distribución de estos materiales debe contar con la debida atribución al autor.
 
 ---
-
-
