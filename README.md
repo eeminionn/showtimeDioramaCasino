@@ -89,15 +89,38 @@
 
 ---
 
-## 📸 Galería
+##  Galería
 
-### Renders Finales
-<h3>Render Ficha</h3>
+### Vista General del Diorama
+<h3>Foto principal del diorama</h3>
+<img src="Fotos/resultadoFinal/fotoPrincipalDiorama.JPG" alt="Foto principal" width="500"/>
+
+---
+
+### Detalles de piezas y base
+<h3>Zoom a piezas</h3>
+<img src="Fotos/resultadoFinal/zoomPiezas.JPG" alt="Zoom piezas" width="400"/>
+<img src="Fotos/resultadoFinal/zoomPiezas2.JPG" alt="Zoom piezas 2" width="400"/>
+
+<h3>Base de madera</h3>
+<img src="Fotos/resultadoFinal/zoomMadera.JPG" alt="Zoom madera" width="400"/>
+
+---
+
+### Visualizaciones 3D (renders)
+<h3>Render de ficha</h3>
 <img src="Fotos/resultadoFinal/RenderFicha.png" alt="Render Ficha" width="400"/>
 
-<h3>Render Ruleta</h3>
+<h3>Render de ruleta</h3>
 <img src="Fotos/resultadoFinal/RenderRuleta.jpg" alt="Render Ruleta" width="400"/>
 
+---
+
+### Detalles de la electrónica (PCB)
+<h3>PCB – Diseño y fabricación</h3>
+<img src="Fotos/resultadoFinal/PCB1.png" alt="PCB 1" width="400"/>
+<img src="Fotos/resultadoFinal/PCB2.png" alt="PCB 2" width="400"/>
+<img src="Fotos/resultadoFinal/PCB3.png" alt="PCB 3" width="400"/>
 
 ---
 
